@@ -1,19 +1,15 @@
-# Welcome to MkDocs
+# ITMO
 
-## Hello, world
+## Практика
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+* Устанавливаем Python актуальной версии, проверяем работает ли pip (может запускаться из консоли по * команде pip или pip3) и virtualenv.
+* Устанавливаем virtualenv, если его нет: https://virtualenv.pypa.io/en/latest/installation.html.
+* Создаем каталог и там развертываем виртуальное окружение, активируем его.
+* Ставим mkdocs
+* Пушим изменения в репозиторий. 
+* Настраиваем Actions.
+* Создаем новый сервер или активируем аккаунт на Helios. 
+* Корректируем yml-файл под место куда деплоим
+* Проверяем, что все задеплоилось. 
+* Отлаживаем. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
